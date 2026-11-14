@@ -21,3 +21,15 @@ Make sure you have Python installed in your computer. We strongly recommend [ins
 ### Contributors
 
 This template was built as part of the [4Geeks Python Resources](https://4geeks.com/technology/python) for learning at [4Geeks.com](https://4geeks.com) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/python-hello/graphs/contributors).
+
+## Cómo iniciar el proyecto
+
+Este proyecto requiere dos terminales abiertas al mismo tiempo.
+
+**Terminal 1 (API):**
+```bash
+uvicorn api.app:app --reload
+
+**Terminal 2 (agent):**
+
+python agent.py
